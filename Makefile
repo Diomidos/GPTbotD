@@ -1,5 +1,5 @@
-# build:
-# 	docker build -t tgbot .
+build:
+	docker build -t tmkomek .
 
-# run:
-# 	docker run -d -p 3000:3000 --name tgbot --rm tgbot
+run:
+	docker run -d -p 3000:3000 --name tmkomek --rm tmkomek
